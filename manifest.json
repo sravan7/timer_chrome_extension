@@ -1,0 +1,10 @@
+{
+    "name": "timer",
+    "version": "1.0",
+    "description": "just timer",
+    "manifest_version": 2,
+    "chrome_url_overrides": {
+        "newtab": "newTabOverride.html"
+    },
+    "content_security_policy": "script-src 'self' 'sha256-DCFEGM8rncm6Gkp7uksFMpFYSounju8T67ILFiEvCrs='"
+  }
